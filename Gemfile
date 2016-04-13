@@ -15,12 +15,16 @@ gem 'pg', '~> 0.15'
 group :development, :test do
   gem 'byebug'
   gem 'spring'
+end
+
+group :development do
   gem 'web-console', '~> 2.0'
 end
 
 group :test do
    gem 'minitest-reporters'
    gem 'mini_backtrace'
+   gem 'guard'
    gem 'guard-minitest'
 end
 
